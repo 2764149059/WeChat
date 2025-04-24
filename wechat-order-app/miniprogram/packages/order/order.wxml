@@ -1,0 +1,5 @@
+<view class="order">
+  <input placeholder="请输入您的姓名" bindinput="onInputName" />
+  <input placeholder="请输入您的地址" bindinput="onInputAddress" />
+  <button bindtap="confirmOrder">确认订单</button>
+</view>

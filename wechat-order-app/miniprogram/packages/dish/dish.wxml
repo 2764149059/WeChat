@@ -1,0 +1,6 @@
+<view class="dish-detail">
+  <image class="dish-image" src="{{dish.image}}" />
+  <text class="dish-name">{{dish.name}}</text>
+  <text class="dish-price">价格: ¥{{dish.price}}</text>
+  <button bindtap="addToCart">加入购物车</button>
+</view>

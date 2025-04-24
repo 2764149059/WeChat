@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dish/dish",
+    "pages/cart/cart",
+    "pages/order/order"
+  ],
+  "window": {
+    "navigationBarTitleText": "电子菜单"
+  }
+}

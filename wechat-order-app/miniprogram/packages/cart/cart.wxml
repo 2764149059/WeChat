@@ -1,0 +1,9 @@
+<view class="cart">
+  <block wx:for="{{cartItems}}" wx:key="id">
+    <view class="cart-item">
+      <text>{{item.name}} x {{item.quantity}}</text>
+      <button bindtap="removeItem" data-id="{{item.id}}">删除</button>
+    </view>
+  </block>
+  <button bindtap="submitOrder">提交订单</button>
+</view>

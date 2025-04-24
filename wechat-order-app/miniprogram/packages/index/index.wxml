@@ -1,0 +1,8 @@
+<view class="menu">
+  <block wx:for="{{dishes}}" wx:key="id">
+    <view class="dish" bindtap="viewDish" data-id="{{item.id}}">
+      <image class="dish-image" src="{{item.image}}" />
+      <text class="dish-name">{{item.name}}</text>
+    </view>
+  </block>
+</view>
